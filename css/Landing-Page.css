@@ -1,0 +1,47 @@
+body {
+    font-family: "festive", cursive;
+    background-image: linear-gradient(to right, pink), lavender;   
+    margin: 20px;
+    padding: 10px 0; 
+    box-sizing: border-box;
+}
+section
+{   
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding:  100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #c8ffd8;
+    transition: 0.5s;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1
+{
+    position: relative;
+    width: 100px;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li {
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    margin-left: 40px;
+
+}
