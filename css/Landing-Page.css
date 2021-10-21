@@ -14,12 +14,12 @@ section
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #c8ffd8;
+    background: #3fbef8;
     transition: 0.5s;
 }
 header
 {
-    position: absolute;
+    position:;
     top: 0;
     left: 0;
     width: 100%;
@@ -33,15 +33,18 @@ h1
     position: absolute;
     width: 100px;
 }
-header ul
-{
+li {
+    color: rgb(144, 48, 235);
+    display: inline-block;
     position: relative;
     display: flex;
+    font-size: 28px;
 }
-header ul li {
+/*li {
     display: inline-block;
-    color: white;
+    color: rgb(144, 48, 235);
     font-weight: 400;
     margin-left: 40px;
+    align-content: center;
 
 }

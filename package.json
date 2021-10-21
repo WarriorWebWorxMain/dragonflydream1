@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -16,4 +17,8 @@
     "url": "https://github.com/WarriorWebWorxMain/dragonflydream1/issues"
   },
   "homepage": "https://github.com/WarriorWebWorxMain/dragonflydream1#readme"
+  
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
