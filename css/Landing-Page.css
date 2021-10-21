@@ -30,7 +30,7 @@ header
 }
 h1
 {
-    position: relative;
+    position: absolute;
     width: 100px;
 }
 header ul
