@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "lite-server",
-    "start": "npm run watch:all"
+    "start": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,6 @@
   "homepage": "https://github.com/WarriorWebWorxMain/dragonflydream1#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
-  }
+  },
+  "dependencies": {}
 }
