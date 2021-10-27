@@ -5,12 +5,13 @@
   "main": "index.html",
   "dependencies": {},
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "nodemon": "^2.0.14"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
-    "lite" : "lite-server"
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",

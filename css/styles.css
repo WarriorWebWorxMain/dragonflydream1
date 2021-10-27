@@ -1,8 +1,8 @@
-/**{
+{
   margin: 0px;
   padding: 0px;
   box-sizing:  border-box;  
-}*/
+}
 h1 {
     font-size: 65px;
 }
@@ -18,15 +18,14 @@ nav {
     font-size: 30px;
 }
 
+
 .logo h3 {
     text-align: center;
     color: rgb(82, 35, 235);
     font-size: 45px;
 }
 
-.nav-links li {
-    list-style: none;
-}
+/*
 
 .nav-links {
     font-family: fantasy;
@@ -34,12 +33,14 @@ nav {
     width: 40%;
     justify-content: space-around;
     font-size: 12px;
-}
+}*/
 .nav-links a {
+    display: flex;
     text-decoration: none;
     color: rgb(76, 7, 141);
     font-weight: bold;
     font-size: 22px;
+    text-justify: auto;
 }
 
 .burger {
@@ -53,11 +54,11 @@ nav {
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width:1024px){
+/*@media screen and (max-width:1024px){
     .nav-links{
     width: 60%;
-    font-family: fantasy;
-}
+    justify-content: right;
+}*/
 
 @media screen and (max-width:768px){
     body{
